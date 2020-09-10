@@ -1,0 +1,32 @@
+@import 'variables.scss';
+
+.product-list {
+  padding: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+
+  @media (max-width: 525px) {
+    justify-content: center;
+  }
+}
+
+.product-name {
+  padding-bottom: 10px;
+  width: 150px;
+
+  &:hover {
+    color: gray;
+  }
+}
+
+.product-price {
+  color: $dark-pink;
+}
+
+.product-container {
+  margin: 20px 40px 20px 40px;
+}

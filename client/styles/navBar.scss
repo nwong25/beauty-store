@@ -1,0 +1,35 @@
+@import 'variables.scss';
+
+.storeHeader {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.nav-section {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 100;
+}
+
+.nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+
+.nav-button {
+  display: inline;
+  background-color: $base-color;
+  border-radius: 4px;
+  margin: 4px 4px 4px 4px;
+
+  a {
+    color: black;
+
+    &:hover {
+      color: gray;
+    }
+  }
+}
