@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 import {auth} from '../store'
 import locale from '../locale'
-import ClickButton from './shared-components/ClickButtons'
+import ClickButton from './shared-components/ClickButton'
 
 /**
  * COMPONENT

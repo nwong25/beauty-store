@@ -1,16 +1,11 @@
 import React, {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
-import {
-  fetchProducts,
-  fetchOrders,
-  fetchCategoryProducts
-} from '../store/product'
-import SingleProduct from './SingleProduct'
+import {selectProductById} from '../store/product'
 import locale from '../locale'
 import ClickButton from './shared-components/ClickButton'
 
-export class AllProducts extends Component {
+export class ProductDetails extends Component {
   constructor(props) {
     super(props)
 
@@ -77,11 +72,9 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  fetchProducts: () => dispatch(fetchProducts()),
-  fetchAllOrders: () => dispatch(fetchOrders()),
-  fetchCategoryProducts: category => dispatch(fetchCategoryProducts(category))
+  selectProductById: id => dispatch(selectProductById())
 })
 
 export default withRouter(
-  connect(mapStateToProps, mapDispatchToProps)(AllProducts)
+  connect(mapStateToProps, mapDispatchToProps)(ProductDetails)
 )

@@ -18,6 +18,7 @@ const EDIT_CART_QUANTITY = 'EDIT_CART_QUANTITY'
 const DELETE_FROM_CART = 'DELETE_FROM_CART'
 const EDIT_CART_PRICE = 'EDIT_CART_PRICE'
 const EDIT_CART_PROMO = 'EDIT_CART_PROMO'
+const GET_PRODUCT_FILTERED_BY_CATEGORY = 'GET_PRODUCT_FILTERED_BY_CATEGORY'
 
 /**
  * INITIAL STATE
@@ -63,9 +64,10 @@ export const addCartItem = item => ({
   item
 })
 
-export const searchProducts = title => ({
+export const searchProducts = (title, products) => ({
   type: SEARCH_PRODUCTS,
-  title
+  title,
+  products
 })
 
 export const gotCart = cart => ({
@@ -111,6 +113,11 @@ export const editCartPromo = (id, promo) => ({
   promo
 })
 
+export const filteredProductByCategory = products => ({
+  type: GET_PRODUCT_FILTERED_BY_CATEGORY,
+  products
+})
+
 /**
  * THUNK CREATORS
  */
@@ -126,6 +133,27 @@ export const fetchProducts = () => async dispatch => {
   }
 }
 
+export const fetchFilteredProducts = searchTerm => async dispatch => {
+  try {
+    const response = await axios.get(`/api/products?search=${searchTerm}`)
+    const filteredResults = response.data
+    const action = searchProducts(searchTerm, filteredResults)
+    dispatch(action)
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const fetchCategoryProducts = category => async dispatch => {
+  try {
+    const response = await axios.get(`/api/products?category=${category}`)
+    const filteredResults = response.data
+    const action = filteredProductByCategory(filteredResults)
+    dispatch(action)
+  } catch (error) {
+    console.log(error)
+  }
+}
 export const fetchProdAdmin = () => async dispatch => {
   try {
     const response = await axios.get('/api/products')
@@ -307,8 +335,18 @@ export const productReducer = (state = initialState, action) => {
       return {...state, cart: updateCartPromoInfo}
 
     case SEARCH_PRODUCTS:
-      return {...state, searchInput: action.title}
+      return {
+        ...state,
+        searchInput: action.title,
+        products: action.products
+      }
 
+    case GET_PRODUCT_FILTERED_BY_CATEGORY: {
+      return {
+        ...state,
+        products: action.products
+      }
+    }
     case GET_CART:
       return {...state, cart: [...action.cart]}
     case CLEAR_CART:

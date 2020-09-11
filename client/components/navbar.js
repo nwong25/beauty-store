@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 import {logout} from '../store'
 import locale from '../locale'
 import NavButton from './shared-components/NavButtons'
+import SearchBar from './SearchBar'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div className="nav-section">
@@ -19,10 +20,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
             buttonTitle={locale.NAV_LINK_ORDER_HISTORY}
             link="/orderHistory"
           />
-          <NavButton
-            buttonTitle={locale.NAV_LINK_PRODUCTS}
-            link="/products"
-          />
+          <NavButton buttonTitle={locale.NAV_LINK_PRODUCTS} link="/products" />
           <NavButton buttonTitle={locale.NAV_LINK_CART} link="/cart" />
           <NavButton
             buttonTitle={locale.NAV_LINK_LOGOUT}
@@ -36,13 +34,11 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           <NavButton buttonTitle={locale.NAV_LINK_HOME} link="/home" />
           <NavButton buttonTitle={locale.NAV_LINK_LOGIN} link="/login" />
           <NavButton buttonTitle={locale.NAV_LINK_SIGN_UP} link="/signup" />
-          <NavButton
-            buttonTitle={locale.NAV_LINK_PRODUCTS}
-            link="/products"
-          />
+          <NavButton buttonTitle={locale.NAV_LINK_PRODUCTS} link="/products" />
           <NavButton buttonTitle={locale.NAV_LINK_CART} link="/cart" />
         </div>
       )}
+      <SearchBar />
     </nav>
     <hr />
   </div>

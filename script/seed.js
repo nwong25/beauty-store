@@ -30,7 +30,9 @@ const products = [
     price: 1349,
     inventory: 53,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559841?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -38,7 +40,9 @@ const products = [
     price: 4000,
     inventory: 62,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2545153?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -46,7 +50,9 @@ const products = [
     price: 790,
     inventory: 10,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551159?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -54,7 +60,9 @@ const products = [
     price: 4000,
     inventory: 34,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2082350?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -62,7 +70,9 @@ const products = [
     price: 3900,
     inventory: 94,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2152629?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -70,7 +80,9 @@ const products = [
     price: 1499,
     inventory: 81,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2254420?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -78,7 +90,9 @@ const products = [
     price: 1399,
     inventory: 11,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2283676?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Tula',
@@ -86,7 +100,9 @@ const products = [
     price: 2800,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532485?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -94,7 +110,9 @@ const products = [
     price: 3100,
     inventory: 68,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2282783?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Philosophy',
@@ -102,7 +120,9 @@ const products = [
     price: 1300,
     inventory: 22,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2565512?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -110,7 +130,9 @@ const products = [
     price: 1900,
     inventory: 15,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2153910?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -118,7 +140,9 @@ const products = [
     price: 3900,
     inventory: 47,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2547231?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Banila Co',
@@ -126,7 +150,9 @@ const products = [
     price: 1900,
     inventory: 79,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2555801?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Philosophy',
@@ -134,7 +160,9 @@ const products = [
     price: 1900,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2504127?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -142,7 +170,9 @@ const products = [
     price: 1499,
     inventory: 10,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2503388?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Garnier',
@@ -151,7 +181,9 @@ const products = [
     price: 499,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2504773?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -159,7 +191,9 @@ const products = [
     price: 3200,
     inventory: 31,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2082345?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'First Aid Beauty',
@@ -167,7 +201,9 @@ const products = [
     price: 2100,
     inventory: 39,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2295735?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -175,7 +211,9 @@ const products = [
     price: 1499,
     inventory: 99,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2503387?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'It Cosmetics',
@@ -183,7 +221,9 @@ const products = [
     price: 2800,
     inventory: 32,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2514626?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -191,7 +231,9 @@ const products = [
     price: 1499,
     inventory: 62,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556948?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -199,7 +241,9 @@ const products = [
     price: 2700,
     inventory: 52,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2235582?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -207,7 +251,9 @@ const products = [
     price: 3900,
     inventory: 71,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2220559?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Origins',
@@ -215,7 +261,9 @@ const products = [
     price: 2400,
     inventory: 72,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2307120?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Garnier',
@@ -224,7 +272,9 @@ const products = [
     price: 499,
     inventory: 52,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2504774?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'It Cosmetics',
@@ -232,7 +282,9 @@ const products = [
     price: 3000,
     inventory: 46,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2562774?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -240,7 +292,9 @@ const products = [
     price: 2250,
     inventory: 85,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2154676?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -248,7 +302,9 @@ const products = [
     price: 1900,
     inventory: 20,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2153914?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -256,7 +312,9 @@ const products = [
     price: 2700,
     inventory: 88,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2235580?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Proactiv',
@@ -264,7 +322,9 @@ const products = [
     price: 2500,
     inventory: 63,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2515774?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cetaphil',
@@ -272,7 +332,9 @@ const products = [
     price: 899,
     inventory: 78,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2091454?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mario Badescu',
@@ -280,7 +342,9 @@ const products = [
     price: 1600,
     inventory: 95,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2209926?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Proactiv',
@@ -288,7 +352,9 @@ const products = [
     price: 3000,
     inventory: 85,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2515770?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mario Badescu',
@@ -296,7 +362,9 @@ const products = [
     price: 1400,
     inventory: 55,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2209927?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Body Shop',
@@ -304,7 +372,9 @@ const products = [
     price: 1400,
     inventory: 58,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2243365?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -312,7 +382,9 @@ const products = [
     price: 2400,
     inventory: 75,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2541688?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -320,7 +392,9 @@ const products = [
     price: 1950,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2264975?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -328,7 +402,9 @@ const products = [
     price: 4500,
     inventory: 61,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2152643?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clarins',
@@ -336,7 +412,9 @@ const products = [
     price: 3800,
     inventory: 57,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2200605?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peach & Lily',
@@ -344,7 +422,9 @@ const products = [
     price: 2800,
     inventory: 75,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2541744?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mario Badescu',
@@ -352,7 +432,9 @@ const products = [
     price: 1500,
     inventory: 72,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2209929?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -360,7 +442,9 @@ const products = [
     price: 2200,
     inventory: 18,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536613?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -368,7 +452,9 @@ const products = [
     price: 1650,
     inventory: 62,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2265614?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -376,7 +462,9 @@ const products = [
     price: 1499,
     inventory: 88,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2276054?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kate Somerville',
@@ -384,7 +472,9 @@ const products = [
     price: 3800,
     inventory: 11,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531095?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -392,7 +482,9 @@ const products = [
     price: 2250,
     inventory: 83,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2286506?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Tula',
@@ -400,7 +492,9 @@ const products = [
     price: 3400,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2549758?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -408,7 +502,9 @@ const products = [
     price: 3800,
     inventory: 73,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536691?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -416,7 +512,9 @@ const products = [
     price: 2350,
     inventory: 8,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2154677?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Philosophy',
@@ -424,7 +522,9 @@ const products = [
     price: 2500,
     inventory: 13,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2246248?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peter Thomas Roth',
@@ -432,7 +532,9 @@ const products = [
     price: 3900,
     inventory: 16,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2135154?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mad Hippie',
@@ -440,7 +542,9 @@ const products = [
     price: 1599,
     inventory: 65,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2530016?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -448,7 +552,9 @@ const products = [
     price: 2250,
     inventory: 62,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2153867?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'It Cosmetics',
@@ -456,7 +562,9 @@ const products = [
     price: 5200,
     inventory: 97,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2565229?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Formula 10.0.6',
@@ -464,7 +572,9 @@ const products = [
     price: 699,
     inventory: 93,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2215032?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cosrx',
@@ -472,7 +582,9 @@ const products = [
     price: 1400,
     inventory: 53,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2517358?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -480,7 +592,9 @@ const products = [
     price: 2900,
     inventory: 18,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2295200?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Juice Beauty',
@@ -488,7 +602,9 @@ const products = [
     price: 2800,
     inventory: 88,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2236864?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cetaphil',
@@ -496,7 +612,9 @@ const products = [
     price: 999,
     inventory: 42,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/5021812?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -504,7 +622,9 @@ const products = [
     price: 3200,
     inventory: 33,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2235581?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Bareminerals',
@@ -512,7 +632,9 @@ const products = [
     price: 2200,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2296211?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Derma E',
@@ -520,7 +642,9 @@ const products = [
     price: 1550,
     inventory: 25,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2541152?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kylie Skin',
@@ -528,7 +652,9 @@ const products = [
     price: 2400,
     inventory: 31,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2548223?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Jack Black',
@@ -536,7 +662,9 @@ const products = [
     price: 2100,
     inventory: 20,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2238531?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Shiseido',
@@ -544,7 +672,9 @@ const products = [
     price: 3600,
     inventory: 68,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531807?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kate Somerville',
@@ -552,7 +682,9 @@ const products = [
     price: 3800,
     inventory: 37,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531098?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -560,7 +692,9 @@ const products = [
     price: 2500,
     inventory: 36,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2157846?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -568,7 +702,9 @@ const products = [
     price: 1599,
     inventory: 47,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2301524?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -576,7 +712,9 @@ const products = [
     price: 1299,
     inventory: 6,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2524863?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -584,7 +722,9 @@ const products = [
     price: 499,
     inventory: 22,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2541441?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Proactiv',
@@ -592,7 +732,9 @@ const products = [
     price: 3500,
     inventory: 50,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2500645?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Boscia',
@@ -600,7 +742,9 @@ const products = [
     price: 2800,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2534399?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Roc',
@@ -608,7 +752,9 @@ const products = [
     price: 1099,
     inventory: 90,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2208206?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -616,7 +762,9 @@ const products = [
     price: 3400,
     inventory: 74,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536607?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -624,7 +772,9 @@ const products = [
     price: 3900,
     inventory: 51,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2535737?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -632,7 +782,9 @@ const products = [
     price: 2500,
     inventory: 75,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536611?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Juice Beauty',
@@ -640,7 +792,9 @@ const products = [
     price: 3400,
     inventory: 36,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2291387?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Carbon Theory.',
@@ -648,7 +802,9 @@ const products = [
     price: 999,
     inventory: 86,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559570?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -656,7 +812,9 @@ const products = [
     price: 2250,
     inventory: 20,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2276493?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'First Aid Beauty',
@@ -664,7 +822,9 @@ const products = [
     price: 2400,
     inventory: 53,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2506516?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Beekman 1802',
@@ -672,7 +832,9 @@ const products = [
     price: 3800,
     inventory: 45,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2569234?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -680,7 +842,9 @@ const products = [
     price: 3900,
     inventory: 19,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556383?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Boscia',
@@ -688,7 +852,9 @@ const products = [
     price: 2800,
     inventory: 57,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2534400?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Garnier',
@@ -696,7 +862,9 @@ const products = [
     price: 899,
     inventory: 22,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2553715?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Jack Black',
@@ -704,7 +872,9 @@ const products = [
     price: 1900,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2238522?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Estée Lauder',
@@ -712,7 +882,9 @@ const products = [
     price: 2700,
     inventory: 39,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531469?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -720,7 +892,9 @@ const products = [
     price: 1900,
     inventory: 59,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2153909?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Osea',
@@ -728,7 +902,9 @@ const products = [
     price: 4800,
     inventory: 3,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2570071?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kopari Beauty',
@@ -736,7 +912,9 @@ const products = [
     price: 2400,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2563283?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Neutrogena',
@@ -744,7 +922,9 @@ const products = [
     price: 1199,
     inventory: 45,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2501814?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Florence By Mills',
@@ -752,7 +932,9 @@ const products = [
     price: 2200,
     inventory: 92,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2565480?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Elemis',
@@ -760,7 +942,9 @@ const products = [
     price: 2500,
     inventory: 25,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2533930?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -768,7 +952,9 @@ const products = [
     price: 1000,
     inventory: 64,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532674?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -776,7 +962,9 @@ const products = [
     price: 2700,
     inventory: 92,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2287801?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Skyn Iceland',
@@ -784,7 +972,9 @@ const products = [
     price: 3000,
     inventory: 17,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2266934?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -792,7 +982,9 @@ const products = [
     price: 2250,
     inventory: 14,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2290943?$md$',
-    category: 'cleanser'
+    category: 'cleanser',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -800,7 +992,9 @@ const products = [
     price: 4700,
     inventory: 31,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2220567?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Philosophy',
@@ -808,7 +1002,9 @@ const products = [
     price: 7600,
     inventory: 14,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2501473?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Nuface',
@@ -816,7 +1012,9 @@ const products = [
     price: 697,
     inventory: 26,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2561047?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Tarte',
@@ -824,7 +1022,9 @@ const products = [
     price: 4800,
     inventory: 66,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2247699?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Roc',
@@ -832,7 +1032,9 @@ const products = [
     price: 2499,
     inventory: 46,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2125984?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Strivectin',
@@ -840,7 +1042,9 @@ const products = [
     price: 5900,
     inventory: 29,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2293387?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Philosophy',
@@ -848,7 +1052,9 @@ const products = [
     price: 4900,
     inventory: 40,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2209148?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Roc',
@@ -856,7 +1062,9 @@ const products = [
     price: 2899,
     inventory: 12,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2240442?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -864,7 +1072,9 @@ const products = [
     price: 4650,
     inventory: 93,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2302019?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Origins',
@@ -872,7 +1082,9 @@ const products = [
     price: 6200,
     inventory: 60,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2307183?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Urban Skin Rx',
@@ -880,7 +1092,9 @@ const products = [
     price: 1898,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2542186?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'I Dew Care',
@@ -888,7 +1102,9 @@ const products = [
     price: 1400,
     inventory: 30,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2548804?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Strivectin',
@@ -896,7 +1112,9 @@ const products = [
     price: 9900,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2557473?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -904,7 +1122,9 @@ const products = [
     price: 8900,
     inventory: 23,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532698?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Proactiv',
@@ -912,7 +1132,9 @@ const products = [
     price: 5000,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2500642?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Shiseido',
@@ -920,7 +1142,9 @@ const products = [
     price: 7500,
     inventory: 46,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531371?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -928,7 +1152,9 @@ const products = [
     price: 5600,
     inventory: 49,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536677?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -936,7 +1162,9 @@ const products = [
     price: 3950,
     inventory: 72,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564833?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Truly',
@@ -944,7 +1172,9 @@ const products = [
     price: 3500,
     inventory: 3,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2568012?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -952,7 +1182,9 @@ const products = [
     price: 5200,
     inventory: 46,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564756?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -961,7 +1193,9 @@ const products = [
     price: 4000,
     inventory: 32,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536208?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Exuviance',
@@ -969,7 +1203,9 @@ const products = [
     price: 8200,
     inventory: 67,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2554719?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Pacifica',
@@ -977,7 +1213,9 @@ const products = [
     price: 1600,
     inventory: 99,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559513?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Derma E',
@@ -985,7 +1223,9 @@ const products = [
     price: 1699,
     inventory: 60,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2540670?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Neutrogena',
@@ -993,7 +1233,9 @@ const products = [
     price: 2499,
     inventory: 58,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2501815?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Exuviance',
@@ -1001,7 +1243,9 @@ const products = [
     price: 7500,
     inventory: 68,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2554761?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Tula',
@@ -1009,7 +1253,9 @@ const products = [
     price: 6800,
     inventory: 72,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532113?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Ahava',
@@ -1017,7 +1263,9 @@ const products = [
     price: 7600,
     inventory: 17,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2298473?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kylie Skin',
@@ -1025,7 +1273,9 @@ const products = [
     price: 2800,
     inventory: 76,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2548218?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Bliss',
@@ -1033,7 +1283,9 @@ const products = [
     price: 1800,
     inventory: 80,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2567469?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Honest Beauty',
@@ -1041,7 +1293,9 @@ const products = [
     price: 2800,
     inventory: 45,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2566812?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Juice Beauty',
@@ -1049,7 +1303,9 @@ const products = [
     price: 4800,
     inventory: 75,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2519860?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1057,7 +1313,9 @@ const products = [
     price: 6700,
     inventory: 30,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2238016?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -1065,7 +1323,9 @@ const products = [
     price: 2100,
     inventory: 62,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2507291?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Strivectin',
@@ -1073,7 +1333,9 @@ const products = [
     price: 8900,
     inventory: 42,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2521283?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Estée Lauder',
@@ -1082,7 +1344,9 @@ const products = [
     price: 7800,
     inventory: 84,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559121?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Estée Lauder',
@@ -1090,7 +1354,9 @@ const products = [
     price: 6300,
     inventory: 94,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2309677?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Vichy',
@@ -1098,7 +1364,9 @@ const products = [
     price: 2950,
     inventory: 31,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2512460?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Juice Beauty',
@@ -1106,7 +1374,9 @@ const products = [
     price: 3000,
     inventory: 81,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2236943?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'First Aid Beauty',
@@ -1114,7 +1384,9 @@ const products = [
     price: 5800,
     inventory: 47,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2509134?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Estée Lauder',
@@ -1122,7 +1394,9 @@ const products = [
     price: 8200,
     inventory: 74,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2550832?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Upcircle',
@@ -1130,7 +1404,9 @@ const products = [
     price: 2000,
     inventory: 66,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2560811?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Perricone Md',
@@ -1138,7 +1414,9 @@ const products = [
     price: 6900,
     inventory: 68,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532604?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1146,7 +1424,9 @@ const products = [
     price: 9000,
     inventory: 86,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2291791?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Revolution Skincare',
@@ -1154,7 +1434,9 @@ const products = [
     price: 1400,
     inventory: 63,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2553848?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Meaningful Beauty',
@@ -1162,7 +1444,9 @@ const products = [
     price: 6500,
     inventory: 16,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2264147?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Revolution Skincare',
@@ -1170,7 +1454,9 @@ const products = [
     price: 1000,
     inventory: 12,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2549615?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Olay',
@@ -1178,7 +1464,9 @@ const products = [
     price: 3999,
     inventory: 25,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2560240?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kate Somerville',
@@ -1186,7 +1474,9 @@ const products = [
     price: 4800,
     inventory: 93,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531100?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cosrx',
@@ -1194,7 +1484,9 @@ const products = [
     price: 2400,
     inventory: 87,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531895?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Hey Honey',
@@ -1202,7 +1494,9 @@ const products = [
     price: 4800,
     inventory: 34,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2303381?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "L'oréal",
@@ -1210,7 +1504,9 @@ const products = [
     price: 2999,
     inventory: 89,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2554029?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Revolution Skincare',
@@ -1218,7 +1514,9 @@ const products = [
     price: 1100,
     inventory: 31,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2553841?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "L'oréal",
@@ -1226,7 +1524,9 @@ const products = [
     price: 2999,
     inventory: 22,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2534684?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Artnaturals Luxe',
@@ -1234,7 +1534,9 @@ const products = [
     price: 1998,
     inventory: 19,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559408?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Bareminerals',
@@ -1242,7 +1544,9 @@ const products = [
     price: 6000,
     inventory: 82,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2521604?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Elizabeth Arden',
@@ -1250,7 +1554,9 @@ const products = [
     price: 5100,
     inventory: 26,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2555872?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Perricone Md',
@@ -1258,7 +1564,9 @@ const products = [
     price: 12900,
     inventory: 86,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2558717?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Revolution Skincare',
@@ -1266,7 +1574,9 @@ const products = [
     price: 1000,
     inventory: 0,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2545409?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Bliss',
@@ -1275,7 +1585,9 @@ const products = [
     price: 2700,
     inventory: 5,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2561214?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -1283,7 +1595,9 @@ const products = [
     price: 6000,
     inventory: 82,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2565385?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Olay',
@@ -1291,7 +1605,9 @@ const products = [
     price: 3999,
     inventory: 81,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2560239?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -1299,7 +1615,9 @@ const products = [
     price: 3950,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564825?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Revolution Skincare',
@@ -1307,7 +1625,9 @@ const products = [
     price: 700,
     inventory: 30,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2545400?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Derma E',
@@ -1315,7 +1635,9 @@ const products = [
     price: 2295,
     inventory: 32,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556742?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Exuviance',
@@ -1323,7 +1645,9 @@ const products = [
     price: 7900,
     inventory: 21,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2554720?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Strivectin',
@@ -1331,7 +1655,9 @@ const products = [
     price: 11900,
     inventory: 33,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2275001?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -1339,7 +1665,9 @@ const products = [
     price: 3950,
     inventory: 49,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564832?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Neutrogena',
@@ -1347,7 +1675,9 @@ const products = [
     price: 3599,
     inventory: 8,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2534778?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Estée Lauder',
@@ -1356,7 +1686,9 @@ const products = [
     price: 7800,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2523105?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Pacifica',
@@ -1364,7 +1696,9 @@ const products = [
     price: 2200,
     inventory: 75,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556957?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Philosophy',
@@ -1373,7 +1707,9 @@ const products = [
     price: 7600,
     inventory: 32,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2509935?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1381,7 +1717,9 @@ const products = [
     price: 7000,
     inventory: 40,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2251060?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Perricone Md',
@@ -1389,7 +1727,9 @@ const products = [
     price: 14900,
     inventory: 88,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2520379?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Philosophy',
@@ -1397,7 +1737,9 @@ const products = [
     price: 3900,
     inventory: 4,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2209146?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Roc',
@@ -1405,7 +1747,9 @@ const products = [
     price: 2399,
     inventory: 6,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2202379?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cosrx',
@@ -1413,7 +1757,9 @@ const products = [
     price: 2100,
     inventory: 18,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2517361?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Neutrogena',
@@ -1421,7 +1767,9 @@ const products = [
     price: 2699,
     inventory: 79,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2269135?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1429,7 +1777,9 @@ const products = [
     price: 9900,
     inventory: 61,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2281032?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Juice Beauty',
@@ -1437,7 +1787,9 @@ const products = [
     price: 3800,
     inventory: 58,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2514409?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kate Somerville',
@@ -1445,7 +1797,9 @@ const products = [
     price: 9800,
     inventory: 98,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2538075?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Meaningful Beauty',
@@ -1453,7 +1807,9 @@ const products = [
     price: 6500,
     inventory: 24,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2284118?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'St. Moriz',
@@ -1461,7 +1817,9 @@ const products = [
     price: 1898,
     inventory: 95,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559549?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -1469,7 +1827,9 @@ const products = [
     price: 4800,
     inventory: 32,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2287177?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "L'occitane",
@@ -1477,7 +1837,9 @@ const products = [
     price: 5900,
     inventory: 25,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2567642?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Skinfood',
@@ -1485,7 +1847,9 @@ const products = [
     price: 1600,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2305346?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -1494,7 +1858,9 @@ const products = [
     price: 12000,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564688?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1502,7 +1868,9 @@ const products = [
     price: 4200,
     inventory: 67,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2519944?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Honest Beauty',
@@ -1510,7 +1878,9 @@ const products = [
     price: 2800,
     inventory: 88,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2566774?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cosrx',
@@ -1518,7 +1888,9 @@ const products = [
     price: 2400,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2542833?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cosrx',
@@ -1526,7 +1898,9 @@ const products = [
     price: 2300,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2517362?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermadoctor',
@@ -1534,7 +1908,9 @@ const products = [
     price: 9500,
     inventory: 21,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2282980?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Pacifica',
@@ -1542,7 +1918,9 @@ const products = [
     price: 1600,
     inventory: 43,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556954?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cosrx',
@@ -1550,7 +1928,9 @@ const products = [
     price: 2800,
     inventory: 52,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2568149?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Strivectin',
@@ -1558,7 +1938,9 @@ const products = [
     price: 9900,
     inventory: 69,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2263955?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clarins',
@@ -1566,7 +1948,9 @@ const products = [
     price: 7900,
     inventory: 53,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559203?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1574,7 +1958,9 @@ const products = [
     price: 590,
     inventory: 84,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551167?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1582,7 +1968,9 @@ const products = [
     price: 680,
     inventory: 54,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551164?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1590,7 +1978,9 @@ const products = [
     price: 790,
     inventory: 79,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551154?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1598,7 +1988,9 @@ const products = [
     price: 1480,
     inventory: 39,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551168?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1606,7 +1998,9 @@ const products = [
     price: 890,
     inventory: 20,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551165?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1614,7 +2008,9 @@ const products = [
     price: 670,
     inventory: 86,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551166?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1622,7 +2018,9 @@ const products = [
     price: 680,
     inventory: 60,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551156?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -1630,7 +2028,9 @@ const products = [
     price: 5200,
     inventory: 51,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2538776?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -1638,7 +2038,9 @@ const products = [
     price: 7200,
     inventory: 24,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2082341?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mad Hippie',
@@ -1646,7 +2048,9 @@ const products = [
     price: 3399,
     inventory: 58,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2530015?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1654,7 +2058,9 @@ const products = [
     price: 580,
     inventory: 58,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551175?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peach & Lily',
@@ -1662,7 +2068,9 @@ const products = [
     price: 3900,
     inventory: 89,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532640?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1670,7 +2078,9 @@ const products = [
     price: 2890,
     inventory: 1,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2552302?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1678,7 +2088,9 @@ const products = [
     price: 1000,
     inventory: 63,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2552306?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Derma E',
@@ -1686,7 +2098,9 @@ const products = [
     price: 1998,
     inventory: 24,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2501942?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1694,7 +2108,9 @@ const products = [
     price: 790,
     inventory: 17,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551177?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cosrx',
@@ -1702,7 +2118,9 @@ const products = [
     price: 2300,
     inventory: 31,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2504912?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -1710,7 +2128,9 @@ const products = [
     price: 1999,
     inventory: 72,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556947?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -1718,7 +2138,9 @@ const products = [
     price: 5450,
     inventory: 42,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2560142?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1726,7 +2148,9 @@ const products = [
     price: 8900,
     inventory: 60,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2547336?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -1734,7 +2158,9 @@ const products = [
     price: 6200,
     inventory: 97,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2275794?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peter Thomas Roth',
@@ -1742,7 +2168,9 @@ const products = [
     price: 6500,
     inventory: 7,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2165283?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -1750,7 +2178,9 @@ const products = [
     price: 6000,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2562880?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -1758,7 +2188,9 @@ const products = [
     price: 6500,
     inventory: 87,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2544839?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clarins',
@@ -1766,7 +2198,9 @@ const products = [
     price: 8900,
     inventory: 82,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2515969?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1774,7 +2208,9 @@ const products = [
     price: 1290,
     inventory: 4,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551178?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1782,7 +2218,9 @@ const products = [
     price: 1150,
     inventory: 63,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551169?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -1790,7 +2228,9 @@ const products = [
     price: 2499,
     inventory: 2,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2548800?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -1798,7 +2238,9 @@ const products = [
     price: 3399,
     inventory: 29,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2512454?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -1806,7 +2248,9 @@ const products = [
     price: 3999,
     inventory: 55,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2566860?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -1814,7 +2258,9 @@ const products = [
     price: 3500,
     inventory: 87,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2566522?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1822,7 +2268,9 @@ const products = [
     price: 790,
     inventory: 63,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2552301?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -1830,7 +2278,9 @@ const products = [
     price: 4199,
     inventory: 30,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2540868?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mad Hippie',
@@ -1838,7 +2288,9 @@ const products = [
     price: 3399,
     inventory: 27,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564737?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1846,7 +2298,9 @@ const products = [
     price: 8900,
     inventory: 21,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2152651?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mario Badescu',
@@ -1854,7 +2308,9 @@ const products = [
     price: 4500,
     inventory: 66,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2209815?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1862,7 +2318,9 @@ const products = [
     price: 680,
     inventory: 76,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2552293?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1870,7 +2328,9 @@ const products = [
     price: 680,
     inventory: 83,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2552297?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Pixi',
@@ -1878,7 +2338,9 @@ const products = [
     price: 1800,
     inventory: 21,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2562261?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -1886,7 +2348,9 @@ const products = [
     price: 6500,
     inventory: 7,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2547229?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -1894,7 +2358,9 @@ const products = [
     price: 3999,
     inventory: 97,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556946?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -1902,7 +2368,9 @@ const products = [
     price: 5200,
     inventory: 76,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536653?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mad Hippie',
@@ -1910,7 +2378,9 @@ const products = [
     price: 3299,
     inventory: 90,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2530019?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -1918,7 +2388,9 @@ const products = [
     price: 4250,
     inventory: 63,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2285142?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -1926,7 +2398,9 @@ const products = [
     price: 2999,
     inventory: 86,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2280742?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1934,7 +2408,9 @@ const products = [
     price: 680,
     inventory: 2,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551176?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -1942,7 +2418,9 @@ const products = [
     price: 2999,
     inventory: 75,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2556945?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -1950,7 +2428,9 @@ const products = [
     price: 2500,
     inventory: 38,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2535996?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Ordinary',
@@ -1958,7 +2438,9 @@ const products = [
     price: 1780,
     inventory: 47,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2552305?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Sunday Riley',
@@ -1966,7 +2448,9 @@ const products = [
     price: 8500,
     inventory: 23,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2550152?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -1974,7 +2458,9 @@ const products = [
     price: 2500,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2567345?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -1982,7 +2468,9 @@ const products = [
     price: 3399,
     inventory: 6,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2501874?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -1990,7 +2478,9 @@ const products = [
     price: 1848,
     inventory: 38,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2283861?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Tarte',
@@ -1998,7 +2488,9 @@ const products = [
     price: 3000,
     inventory: 6,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2538321?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'La Roche-posay',
@@ -2006,7 +2498,9 @@ const products = [
     price: 3999,
     inventory: 52,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559628?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peach & Lily',
@@ -2014,7 +2508,9 @@ const products = [
     price: 3900,
     inventory: 28,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532647?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -2022,7 +2518,9 @@ const products = [
     price: 8900,
     inventory: 4,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2307230?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Beekman 1802',
@@ -2030,7 +2528,9 @@ const products = [
     price: 4500,
     inventory: 57,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2569233?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Sunday Riley',
@@ -2038,7 +2538,9 @@ const products = [
     price: 8500,
     inventory: 50,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2550151?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Juice Beauty',
@@ -2046,7 +2548,9 @@ const products = [
     price: 8000,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2237397?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Klairs',
@@ -2054,7 +2558,9 @@ const products = [
     price: 2300,
     inventory: 35,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2546685?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -2062,7 +2568,9 @@ const products = [
     price: 8000,
     inventory: 68,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2282091?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peter Thomas Roth',
@@ -2070,7 +2578,9 @@ const products = [
     price: 9800,
     inventory: 88,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2519785?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -2078,7 +2588,9 @@ const products = [
     price: 3950,
     inventory: 13,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564834?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "L'oréal",
@@ -2086,7 +2598,9 @@ const products = [
     price: 2999,
     inventory: 19,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2534685?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Strivectin',
@@ -2094,7 +2608,9 @@ const products = [
     price: 7200,
     inventory: 95,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2568087?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -2102,7 +2618,9 @@ const products = [
     price: 8000,
     inventory: 56,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2562470?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Truly',
@@ -2110,7 +2628,9 @@ const products = [
     price: 3000,
     inventory: 38,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2555593?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Urban Skin Rx',
@@ -2118,7 +2638,9 @@ const products = [
     price: 2299,
     inventory: 61,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2542183?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -2126,7 +2648,9 @@ const products = [
     price: 4199,
     inventory: 4,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2557511?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -2134,7 +2658,9 @@ const products = [
     price: 3950,
     inventory: 87,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564830?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Murad',
@@ -2142,7 +2668,9 @@ const products = [
     price: 7800,
     inventory: 13,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2544840?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Differin',
@@ -2150,7 +2678,9 @@ const products = [
     price: 2199,
     inventory: 8,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2551228?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'It Cosmetics',
@@ -2158,7 +2688,9 @@ const products = [
     price: 5800,
     inventory: 24,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2514623?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Mad Hippie',
@@ -2166,7 +2698,9 @@ const products = [
     price: 3499,
     inventory: 66,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2530017?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -2174,7 +2708,9 @@ const products = [
     price: 5200,
     inventory: 5,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2291704?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Olay',
@@ -2182,7 +2718,9 @@ const products = [
     price: 3899,
     inventory: 57,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2552785?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clinique',
@@ -2190,7 +2728,9 @@ const products = [
     price: 1450,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2567352?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Juice Beauty',
@@ -2198,7 +2738,9 @@ const products = [
     price: 5800,
     inventory: 10,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2236926?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "Kiehl's Since 1851",
@@ -2206,7 +2748,9 @@ const products = [
     price: 7000,
     inventory: 70,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536651?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Meaningful Beauty',
@@ -2214,7 +2758,9 @@ const products = [
     price: 7600,
     inventory: 69,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2516045?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Tarte',
@@ -2222,7 +2768,9 @@ const products = [
     price: 1600,
     inventory: 9,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2282473?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -2230,7 +2778,9 @@ const products = [
     price: 6000,
     inventory: 71,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2220568?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Roc',
@@ -2238,7 +2788,9 @@ const products = [
     price: 1299,
     inventory: 61,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2560712?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Cerave',
@@ -2246,7 +2798,9 @@ const products = [
     price: 1898,
     inventory: 23,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2540675?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peach & Lily',
@@ -2254,7 +2808,9 @@ const products = [
     price: 3900,
     inventory: 50,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2532635?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Exuviance',
@@ -2262,7 +2818,9 @@ const products = [
     price: 7200,
     inventory: 45,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2554741?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peter Thomas Roth',
@@ -2270,7 +2828,9 @@ const products = [
     price: 6500,
     inventory: 28,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2215509?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'First Aid Beauty',
@@ -2278,7 +2838,9 @@ const products = [
     price: 3800,
     inventory: 63,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2542832?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Roc',
@@ -2286,7 +2848,9 @@ const products = [
     price: 3299,
     inventory: 59,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2567070?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dermalogica',
@@ -2294,7 +2858,9 @@ const products = [
     price: 14500,
     inventory: 99,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2549592?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -2302,7 +2868,9 @@ const products = [
     price: 3500,
     inventory: 81,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2562882?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -2310,7 +2878,9 @@ const products = [
     price: 3999,
     inventory: 60,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2548006?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peach & Lily',
@@ -2318,7 +2888,9 @@ const products = [
     price: 1900,
     inventory: 59,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2560931?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'No7',
@@ -2326,7 +2898,9 @@ const products = [
     price: 2999,
     inventory: 70,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2301323?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Derma E',
@@ -2334,7 +2908,9 @@ const products = [
     price: 3650,
     inventory: 93,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2527934?$md$',
-    category: 'serum'
+    category: 'serum',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Botanics',
@@ -2342,7 +2918,9 @@ const products = [
     price: 1399,
     inventory: 48,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2502283?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Bota',
@@ -2350,7 +2928,9 @@ const products = [
     price: 2799,
     inventory: 91,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2569717?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Lancôme',
@@ -2358,7 +2938,9 @@ const products = [
     price: 12000,
     inventory: 58,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564689?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Elizabeth Arden',
@@ -2366,7 +2948,9 @@ const products = [
     price: 8200,
     inventory: 88,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2222096?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Aveeno',
@@ -2374,7 +2958,9 @@ const products = [
     price: 1898,
     inventory: 13,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2234483?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Origins',
@@ -2382,7 +2968,9 @@ const products = [
     price: 6400,
     inventory: 42,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2541815?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Ahava',
@@ -2390,7 +2978,9 @@ const products = [
     price: 5200,
     inventory: 1,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2230679?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Ahava',
@@ -2398,7 +2988,9 @@ const products = [
     price: 5500,
     inventory: 84,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2507565?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Elizabeth Arden',
@@ -2406,7 +2998,9 @@ const products = [
     price: 13700,
     inventory: 14,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2238690?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Ahava',
@@ -2414,7 +3008,9 @@ const products = [
     price: 8900,
     inventory: 8,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2291006?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dr.organic',
@@ -2422,7 +3018,9 @@ const products = [
     price: 1998,
     inventory: 39,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2553856?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Elizabeth Arden',
@@ -2431,7 +3029,9 @@ const products = [
     price: 10400,
     inventory: 93,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2302767?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Estée Lauder',
@@ -2439,7 +3039,9 @@ const products = [
     price: 7000,
     inventory: 37,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2540143?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Physicians Formula',
@@ -2447,7 +3049,9 @@ const products = [
     price: 1599,
     inventory: 44,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2538684?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'The Route',
@@ -2455,7 +3059,9 @@ const products = [
     price: 9000,
     inventory: 62,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2558184?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Clarisma',
@@ -2463,7 +3069,9 @@ const products = [
     price: 1698,
     inventory: 66,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2559502?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Yourgoodskin',
@@ -2471,7 +3079,9 @@ const products = [
     price: 1299,
     inventory: 11,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2530466?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Peter Thomas Roth',
@@ -2479,7 +3089,9 @@ const products = [
     price: 6500,
     inventory: 41,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2549926?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Dr.organic',
@@ -2487,7 +3099,9 @@ const products = [
     price: 1798,
     inventory: 1,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2553724?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Physicians Formula',
@@ -2495,7 +3109,9 @@ const products = [
     price: 1698,
     inventory: 3,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2547550?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Revolution Skincare',
@@ -2503,7 +3119,9 @@ const products = [
     price: 1100,
     inventory: 99,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2566443?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Yourgoodskin',
@@ -2511,7 +3129,9 @@ const products = [
     price: 1499,
     inventory: 6,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2548009?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Milk + Honey',
@@ -2519,7 +3139,9 @@ const products = [
     price: 6800,
     inventory: 18,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2564662?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Andalou Naturals',
@@ -2527,7 +3149,9 @@ const products = [
     price: 2499,
     inventory: 20,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2536530?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Erborian',
@@ -2535,7 +3159,9 @@ const products = [
     price: 5500,
     inventory: 89,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2571595?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Kate Somerville',
@@ -2543,7 +3169,9 @@ const products = [
     price: 4297,
     inventory: 47,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2531115?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: 'Olay',
@@ -2552,7 +3180,9 @@ const products = [
     price: 4399,
     inventory: 39,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2569913?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
     company: "L'oréal",
@@ -2560,7 +3190,9 @@ const products = [
     price: 2499,
     inventory: 26,
     imageUrl: 'https://images.ulta.com/is/image/Ulta/2569995?$md$',
-    category: 'moisturizer'
+    category: 'moisturizer',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   }
 ]
 

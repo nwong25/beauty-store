@@ -30,3 +30,12 @@
 .product-container {
   margin: 20px 40px 20px 40px;
 }
+
+.product-button {
+  margin: 0px 8px 0px 8px;
+  border-radius: 4px;
+
+  &:hover {
+    color: $dark-pink;
+  }
+}

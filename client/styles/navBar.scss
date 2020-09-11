@@ -33,3 +33,9 @@
     }
   }
 }
+
+.search-btn {
+  &:hover {
+    color: $dark-pink;
+  }
+}

@@ -9,5 +9,6 @@ export default {
   NAV_LINK_SIGN_UP: 'Sign Up',
   NAV_LINK_CART: 'Cart',
   EMAIL: 'Email',
-  PASSWORD: 'Password'
+  PASSWORD: 'Password',
+  NO_PRODUCTS: 'There are no products in the store'
 }
