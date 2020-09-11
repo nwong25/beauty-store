@@ -1,12 +1,21 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import locale from '../locale'
 
 const SingleProduct = props => {
-  const {company, name, id, imageUrl, inventory, price} = props.product
+  const {
+    company,
+    name,
+    id,
+    imageUrl,
+    inventory,
+    price,
+    searchName
+  } = props.product
   return (
     <div className="product-container">
       <Link to={`/products/${id}`}>
-        <img className="product-image" src={imageUrl} />
+        <img className="product-image" src={imageUrl} alt={searchName} />
         <div className="product-name center-text">
           {company} {name}
         </div>
@@ -15,7 +24,7 @@ const SingleProduct = props => {
             ${(price / 100).toFixed(2)}
           </div>
         ) : (
-          <div className="center-text">Out of Stock</div>
+          <div className="center-text product-price">{locale.OUT_OF_STOCK}</div>
         )}
       </Link>
     </div>

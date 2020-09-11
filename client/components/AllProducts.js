@@ -1,11 +1,7 @@
 import React, {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
-import {
-  fetchProducts,
-  fetchOrders,
-  fetchCategoryProducts
-} from '../store/product'
+import {fetchProducts, fetchCategoryProducts} from '../store/product'
 import SingleProduct from './SingleProduct'
 import locale from '../locale'
 import ClickButton from './shared-components/ClickButton'
@@ -15,17 +11,28 @@ export class AllProducts extends Component {
     super(props)
 
     this.state = {
-      products: []
+      products: [],
+      searchInput: ''
     }
   }
   componentDidMount() {
-    this.props.fetchProducts()
+    const {location, fetchProducts} = this.props
+
+    if (!location.search.includes('search')) {
+      fetchProducts()
+    }
   }
 
   componentDidUpdate(prevProps, prevState) {
+    console.log('prevprops------>', prevProps)
+    console.log('prevState------>', prevState)
+    console.log('this.props------>', this.props)
+    console.log('this.state------>', this.state)
+
     if (prevProps.products && prevProps.products !== this.props.products) {
       this.setState({
-        products: this.props.products
+        products: this.props.products,
+        searchInput: this.props.searchInput
       })
     }
   }
@@ -36,7 +43,7 @@ export class AllProducts extends Component {
     const {fetchCategoryProducts, fetchProducts} = this.props
 
     return (
-      <React.Fragment>
+      <div>
         <ClickButton
           className="product-button"
           buttonTitle="All"
@@ -66,7 +73,7 @@ export class AllProducts extends Component {
             <div className="center">{locale.NO_PRODUCTS}</div>
           )}
         </div>
-      </React.Fragment>
+      </div>
     )
   }
 }
@@ -78,7 +85,6 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   fetchProducts: () => dispatch(fetchProducts()),
-  fetchAllOrders: () => dispatch(fetchOrders()),
   fetchCategoryProducts: category => dispatch(fetchCategoryProducts(category))
 })
 

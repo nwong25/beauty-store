@@ -41,7 +41,7 @@ router.get('/cart', (req, res, next) => {
 
 router.get('/:id', async (req, res, next) => {
   try {
-    const product = await Product.findById(req.params.id)
+    const product = await Product.findByPk(req.params.id)
     if (product) {
       res.json(product)
     } else {
@@ -73,7 +73,7 @@ router.put('/:id', async (req, res, next) => {
   if (req.user.adminStatus) {
     try {
       const id = +req.params.id
-      const product = await Product.findById(id)
+      const product = await Product.findByPk(id)
       const editedProd = await product.update(req.body)
       res.status(204)
       res.json(editedProd)
@@ -141,7 +141,7 @@ router.put('/cart/checkout', (req, res, next) => {
   try {
     const cart = req.session.cart
     const changes = cart.map(async product => {
-      const selectedProduct = await Product.findById(product.product.id)
+      const selectedProduct = await Product.findByPk(product.product.id)
       const newInventory = await selectedProduct.update({
         inventory: selectedProduct.inventory - product.number
       })

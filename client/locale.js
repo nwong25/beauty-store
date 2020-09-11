@@ -10,5 +10,12 @@ export default {
   NAV_LINK_CART: 'Cart',
   EMAIL: 'Email',
   PASSWORD: 'Password',
-  NO_PRODUCTS: 'There are no products in the store'
+  NO_PRODUCTS: 'There are no products in the store',
+  OUT_OF_STOCK: 'Out of Stock',
+  QUANTITY: 'Quantity',
+  ADD_TO_CART: 'Add to Cart',
+  CART: 'Cart',
+  CHECK_OUT: 'Check Out',
+  ORDER_TOTAL: 'Order Total',
+  REMOVE: 'Remove'
 }

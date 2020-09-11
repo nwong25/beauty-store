@@ -25,17 +25,38 @@
   border-radius: 4px;
   margin: 4px 4px 4px 4px;
 
+  &:hover {
+    background-color: $dark-pink;
+
+    a {
+      color: white;
+    }
+  }
+
   a {
     color: black;
+  }
+}
 
-    &:hover {
-      color: gray;
-    }
+input[name='searchInput'] {
+  @media (max-width: 400px) {
+    height: 25px;
+    width: 100%;
+  }
+}
+
+#search-bar {
+  @media (max-width: 400px) {
+    width: 100%;
   }
 }
 
 .search-btn {
+  height: 31px;
+  margin: 13px 0px;
+
   &:hover {
     color: $dark-pink;
+    background-color: #8080803b;
   }
 }

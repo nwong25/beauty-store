@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
+import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {fetchFilteredProducts} from '../store/product'
-import {Link, Redirect} from 'react-router-dom'
 
 export class SearchBar extends Component {
   constructor(props) {
@@ -18,8 +18,7 @@ export class SearchBar extends Component {
   }
 
   _handleSubmit = event => {
-    const {fetchFilteredProducts} = this.props
-
+    const {fetchFilteredProducts, history} = this.props
     event.preventDefault()
 
     fetchFilteredProducts(this.state.searchInput)
@@ -27,13 +26,14 @@ export class SearchBar extends Component {
     this.setState({
       searchInput: ''
     })
+    history.push(`/products?search=${this.state.searchInput.toLowerCase()}`)
   }
 
   render() {
     const {searchInput} = this.state
     return (
       <div className="center">
-        <form id="search-bar" onSubmit={this._handleSubmit}>
+        <form id="search-bar" className="center" onSubmit={this._handleSubmit}>
           <div className="search-bar-form">
             <input
               type="text"
@@ -47,13 +47,6 @@ export class SearchBar extends Component {
             Search
           </button>
         </form>
-        {this.state.searchInput.length > 0 && (
-          <Redirect
-            to={{
-              pathname: '/products'
-            }}
-          />
-        )}
       </div>
     )
   }
@@ -72,4 +65,6 @@ const mapDispatchToProps = dispatch => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(SearchBar)
+export default withRouter(
+  connect(mapStateToProps, mapDispatchToProps)(SearchBar)
+)

@@ -1,78 +1,147 @@
 import React, {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
-import {selectProductById} from '../store/product'
+import {
+  selectProductById,
+  fetchFilteredProducts,
+  postToCart,
+  addCartItem
+} from '../store/product'
 import locale from '../locale'
 import ClickButton from './shared-components/ClickButton'
+import SelectDropDown from './shared-components/SelectDropDown'
+import {generateQuantityOptions} from '../utility'
 
 export class ProductDetails extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      products: []
+      selectedProduct: {},
+      quantitySelected: 0
     }
   }
   componentDidMount() {
-    this.props.fetchProducts()
+    const selectedProduct = this.props.selectProductById(
+      this.props.match.params.id
+    )
+    this.setState({
+      selectedProduct
+    })
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (prevProps.products && prevProps.products !== this.props.products) {
+    if (
+      prevProps.selectedProduct &&
+      prevProps.selectedProduct !== this.props.selectedProduct
+    ) {
       this.setState({
-        products: this.props.products
+        selectedProduct: this.props.selectedProduct
       })
     }
   }
 
-  render() {
-    const {products} = this.state
+  _editImageUrl = () => {
+    const {imageUrl} = this.state.selectedProduct
+    if (imageUrl) {
+      return imageUrl.slice(0, -5)
+    }
+  }
 
-    const {fetchCategoryProducts, fetchProducts} = this.props
+  _findProductsByBrand = brand => {
+    const {fetchFilteredProducts, history} = this.props
+    fetchFilteredProducts(brand)
+    history.push(`/products?search=${brand.toLowerCase()}`)
+  }
+
+  _selectQuantity = event => {
+    this.setState({
+      quantitySelected: event.target.value
+    })
+  }
+
+  _addToCart = ({quantitySelected, selectedProduct}) => {
+    const {addCartItem, postToCart, cart} = this.props
+
+    const item = {
+      number: +quantitySelected,
+      product: selectedProduct
+    }
+
+    addCartItem(item)
+    postToCart(cart)
+  }
+
+  render() {
+    const {
+      company,
+      name,
+      id,
+      imageUrl,
+      inventory,
+      price,
+      searchName,
+      description
+    } = this.state.selectedProduct
+
+    const {quantitySelected, selectedProduct} = this.state
 
     return (
-      <React.Fragment>
-        <ClickButton
-          className="product-button"
-          buttonTitle="All"
-          handleClick={fetchProducts}
-        />
-        <ClickButton
-          className="product-button"
-          buttonTitle="Cleansers"
-          handleClick={() => fetchCategoryProducts('cleanser')}
-        />
-        <ClickButton
-          className="product-button"
-          buttonTitle="Serums"
-          handleClick={() => fetchCategoryProducts('serum')}
-        />
-        <ClickButton
-          className="product-button"
-          buttonTitle="Moisturizer"
-          handleClick={() => fetchCategoryProducts('moisturizer')}
-        />
-        <div className="product-list">
-          {products.length ? (
-            products.map(product => (
-              <SingleProduct product={product} key={product.id} />
-            ))
-          ) : (
-            <div className="center">{locale.NO_PRODUCTS}</div>
-          )}
+      <div className="product-detail-container">
+        <div className="center image-container">
+          <img
+            className="product-image"
+            src={this._editImageUrl()}
+            alt={searchName}
+          />
         </div>
-      </React.Fragment>
+        <div className="product-info">
+          <ClickButton
+            className="product-button margin-0"
+            buttonTitle={company}
+            handleClick={() => this._findProductsByBrand(company)}
+          />
+          <div className="product-detail-name">{name}</div>
+          {inventory ? (
+            <div className="product-price">${(price / 100).toFixed(2)}</div>
+          ) : (
+            <div className="product-price">{locale.OUT_OF_STOCK}</div>
+          )}
+
+          <div>{description}</div>
+
+          <SelectDropDown
+            className="quantity-dropdown"
+            label={locale.QUANTITY}
+            handleChange={this._selectQuantity}
+            options={generateQuantityOptions()}
+            value={quantitySelected}
+          />
+
+          <ClickButton
+            className="product-button add-to-cart margin-0"
+            buttonTitle={locale.ADD_TO_CART}
+            handleClick={() =>
+              this._addToCart({quantitySelected, selectedProduct})
+            }
+          />
+        </div>
+      </div>
     )
   }
 }
 const mapStateToProps = state => ({
-  products: state.products.products,
+  selectedProduct: state.products.selectedProduct,
   orders: state.orders.orders,
-  searchInput: state.products.searchInput
+  cart: state.products.cart
 })
 
 const mapDispatchToProps = dispatch => ({
-  selectProductById: id => dispatch(selectProductById())
+  selectProductById: id => dispatch(selectProductById(id)),
+  fetchFilteredProducts: searchTerm =>
+    dispatch(fetchFilteredProducts(searchTerm)),
+  postToCart: cart => dispatch(postToCart(cart)),
+  addCartItem: item => dispatch(addCartItem(item))
 })
 
 export default withRouter(

@@ -9,7 +9,7 @@ import image from '../../public/shelfie.jpg'
 const MainPage = () => {
   return (
     <div className="beauty-shelfie">
-      <img src={image} alt="skin shelfie" />
+      <img src={image} alt="Skin Shelfie" />
     </div>
   )
 }

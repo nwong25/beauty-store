@@ -300,18 +300,18 @@ export const productReducer = (state = initialState, action) => {
     case SELECT_PRODUCT:
       return {...state, selectedProduct: action.product}
     case ADD_TO_CART:
-      let cartCopy = [...state.cart]
+      let currentCart = [...state.cart]
       let newProduct = true
-      cartCopy.map(elem => {
-        if (elem.product.id === action.item.product.id) {
-          elem.number += action.item.number
+      currentCart.map(currentCartItem => {
+        if (currentCartItem.product.id === action.item.product.id) {
+          currentCartItem.number += action.item.number
           newProduct = false
         }
       })
       if (newProduct) {
-        return {...state, cart: [...cartCopy, action.item]}
+        return {...state, cart: [...currentCart, action.item]}
       } else {
-        return {...state, cart: [...cartCopy]}
+        return {...state, cart: [...currentCart]}
       }
     case EDIT_CART_QUANTITY:
       const updateCartInfo = state.cart.map(item => {

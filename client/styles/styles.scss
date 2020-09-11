@@ -2,6 +2,7 @@
 @import 'mainPage.scss';
 @import 'variables.scss';
 @import 'products.scss';
+@import 'cart.scss';
 
 a {
   color: black;
@@ -23,7 +24,8 @@ a {
   margin: 0px;
 }
 
-input {
+input,
+select {
   &:focus {
     outline: 1px solid #e75480;
     border: 1px solid #e75480;
@@ -31,8 +33,7 @@ input {
   }
 }
 
-input[type='text'],
-input[type='password'] {
+input {
   height: 25px;
   width: 245px;
 }
@@ -51,10 +52,4 @@ button {
   padding: 8px;
   font-size: 14px;
   border-radius: 4px;
-
-  &:hover,
-  :focus,
-  :active {
-    color: gray;
-  }
 }
