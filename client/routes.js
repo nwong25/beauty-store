@@ -8,7 +8,8 @@ import {
   UserHome,
   MainPage,
   AllProducts,
-  ProductDetails
+  ProductDetails,
+  Cart
 } from './components'
 import {me} from './store'
 import {fetchProducts} from './store/product'
@@ -30,6 +31,7 @@ class Routes extends Component {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route path="/products" component={AllProducts} />
+        <Route path="/cart" component={Cart} />
         <Route
           exact
           path="/"

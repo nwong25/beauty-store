@@ -53,3 +53,17 @@ button {
   font-size: 14px;
   border-radius: 4px;
 }
+
+.gray-button {
+  margin: 0px 8px 0px 8px;
+  border-radius: 4px;
+
+  &:hover {
+    color: $dark-pink;
+    background-color: #8080803b;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}

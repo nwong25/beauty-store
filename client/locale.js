@@ -17,5 +17,6 @@ export default {
   CART: 'Cart',
   CHECK_OUT: 'Check Out',
   ORDER_TOTAL: 'Order Total',
-  REMOVE: 'Remove'
+  REMOVE: 'Remove',
+  EMPTY_CART: 'You have no items in your cart. Start stopping now!'
 }

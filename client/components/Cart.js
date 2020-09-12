@@ -2,7 +2,6 @@ import React from 'react'
 import {withRouter, Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {
-  addOrder,
   clearTheCart,
   deleteItemFromCart,
   editCartPromo,
@@ -11,9 +10,11 @@ import {
   postToCart,
   updateInventory
 } from '../store/product'
+import {addOrder} from '../store/order'
 import CartItem from './CartItem'
-import Checkout from './Checkout'
+// import Checkout from './Checkout'
 import locale from '../locale'
+import ClickButton from './shared-components/ClickButton'
 
 let promoCode = {}
 let counter = true
@@ -25,10 +26,6 @@ class Cart extends React.Component {
     this.state = {
       total: 0
     }
-  }
-
-  componentDidMount() {
-    const {getCart} = this.props
   }
 
   handleSubmit = () => {
@@ -65,31 +62,36 @@ class Cart extends React.Component {
 
   _calculateTotal = () => {
     const {cart} = this.props
-    const total = cart.reduce((total, item) => {
-      return ((total += item.product.price * item.number) / 100).toFixed(2)
+    const totalPrice = cart.reduce((total, item) => {
+      return (total += item.product.price * item.number)
     }, 0)
-    return total
+    return (totalPrice / 100).toFixed(2)
   }
 
   render() {
-    const {cart} = this.props
+    const {cart, isLoggedIn} = this.props
 
     return (
       <div>
-        <h2>{locale.CART}</h2>
+        <h2 className="center-text">{locale.CART}</h2>
         <div className="cart-container">
-          {cart.map(item => (
-            <CartItem
-              item={item}
-              key={item[product].id}
-              editCartQuantity={editCartQuantity}
-              deleteItemFromCart={deleteItemFromCart}
-            />
-          ))}
+          {cart.length ? (
+            cart.map(item => <CartItem item={item} key={item.product.id} />)
+          ) : (
+            <div className="center-text">{locale.EMPTY_CART}</div>
+          )}
+          {cart.length > 0 && (
+            <div className="total-cost-section">
+              <div className="bold">{locale.ORDER_TOTAL}</div>
+              <div className="product-price">${this._calculateTotal()}</div>
+            </div>
+          )}
+          {isLoggedIn ? (
+            <ClickButton />
+          ) : (
+            <Link to="/login">{locale.CHECK_OUT}</Link>
+          )}
         </div>
-
-        <div>{locale.ORDER_TOTAL}</div>
-        <div>{this._calculateTotal()}</div>
       </div>
     )
   }
@@ -97,10 +99,11 @@ class Cart extends React.Component {
 
 const mapStateToProps = state => {
   return {
+    isLoggedIn: !!state.user.id,
     orders: state.orders.orders,
     cart: state.products.cart,
     products: state.products.products,
-    user: state.users.user
+    user: state.users
   }
 }
 
@@ -110,7 +113,7 @@ const mapDispatchToProps = dispatch => ({
   deleteItemFromCart: id => dispatch(deleteItemFromCart(id)),
   editCartPromo: (id, promo) => dispatch(editCartPromo(id, promo)),
   editCartQuantity: (id, quantity) => dispatch(editCartQuantity(id, quantity)),
-  getTheCart: () => dispatch(getCart()),
+  getCart: () => dispatch(getCart()),
   postToCart: cart => dispatch(postToCart(cart)),
   updateInventory: cartItems => dispatch(updateInventory(cartItems))
 })

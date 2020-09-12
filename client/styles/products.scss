@@ -31,16 +31,6 @@
   color: $dark-pink;
 }
 
-.product-button {
-  margin: 0px 8px 0px 8px;
-  border-radius: 4px;
-
-  &:hover {
-    color: $dark-pink;
-    background-color: #8080803b;
-  }
-}
-
 .product-detail-container {
   display: flex;
   margin: 40px 100px;
@@ -73,7 +63,7 @@
     font-weight: 500;
   }
 
-  .product-button {
+  .gray-button {
     font-size: 16px;
 
     @media (max-width: 500px) {
@@ -94,13 +84,6 @@
     margin: 10px 0px;
   }
 
-  .quantity-dropdown {
-    margin-right: 16px;
-    height: 36px;
-    width: 50px;
-    font-size: 17px;
-  }
-
   .add-to-cart {
     font-size: 19px;
     width: 250px;
@@ -110,4 +93,11 @@
       width: 150px;
     }
   }
+}
+
+.quantity-dropdown {
+  margin-right: 16px;
+  height: 36px;
+  width: 50px;
+  font-size: 17px;
 }

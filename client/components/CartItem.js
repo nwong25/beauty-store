@@ -1,11 +1,13 @@
 import React from 'react'
+import {connect} from 'react-redux'
 import SelectDropDown from './shared-components/SelectDropDown'
+import {Link} from 'react-router-dom'
 import {generateQuantityOptions} from '../utility'
-import {editCartQuantity} from '../store'
 import ClickButton from './shared-components/ClickButton'
+import {deleteItemFromCart, editCartQuantity} from '../store/product'
 import locale from '../locale'
 
-class Cart extends React.Component {
+class CartItem extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -15,53 +17,68 @@ class Cart extends React.Component {
 
   _updateQuantityCount = event => {
     const {editCartQuantity, item} = this.props
+    editCartQuantity(item.product.id, +event.target.value)
 
     this.setState({
-      quantitySelected: event.target.value
+      quantitySelected: +event.target.value
     })
-    editCartQuantity(item.product.id, event.target.value)
   }
 
   render() {
     const {quantitySelected} = this.state
-    const {editCartQuantity, deleteItemFromCart} = this.props
-    return (
-      <div>
-        <div>{item.product.imageUrl}</div>
-        <div>
-          <div>{item.product.company}</div>
-          <div>{item.product.name}</div>
-        </div>
-        <SelectDropDown
-          className="quantity-dropdown"
-          label={locale.QUANTITY}
-          handleChange={this._updateQuantityCount}
-          options={generateQuantityOptions()}
-          value={quantitySelected}
-        />
+    const {deleteItemFromCart, item} = this.props
 
-        <ClickButton buttonTitle={locale.REMOVE} />
+    return (
+      <div className="cart-item">
+        <Link className="center" to={`/products/${item.product.id}`}>
+          <div className="cartInfoSpacing">
+            <img
+              className="product-image"
+              src={item.product.imageUrl}
+              alt={item.product.searchName}
+            />
+          </div>
+          <div className="cartInfoSpacing item-info">
+            <div className="cart-product bold">{item.product.company}</div>
+            <div className="cart-product">{item.product.name}</div>
+            <div className="cart-product product-price">
+              ${(item.product.price / 100).toFixed(2)}
+            </div>
+          </div>
+        </Link>
+        <div className="quantity-remove-section">
+          <div className="cartInfoSpacing cart-quantity">
+            <SelectDropDown
+              className="quantity-dropdown"
+              label={locale.QUANTITY}
+              handleChange={this._updateQuantityCount}
+              options={generateQuantityOptions()}
+              value={quantitySelected}
+            />
+          </div>
+          <div className="cartInfoSpacing">
+            <ClickButton
+              className="gray-button"
+              buttonTitle={locale.REMOVE}
+              handleClick={() => deleteItemFromCart(item.product.id)}
+            />
+          </div>
+        </div>
       </div>
     )
   }
 }
-const CartItem = ({item, editCartQuantity, deleteItemFromCart}) => {
-  return (
-    <div>
-      <div>{item.product.imageUrl}</div>
-      <div>
-        <div>{item.product.company}</div>
-        <div>{item.product.name}</div>
-      </div>
-      <SelectDropDown
-        className="quantity-dropdown"
-        label={locale.QUANTITY}
-        handleChange={this._selectQuantity}
-        options={generateQuantityOptions()}
-        value={quantitySelected}
-      />
-    </div>
-  )
+
+const mapStateToProps = state => {
+  return {
+    cart: state.products.cart,
+    user: state.users
+  }
 }
 
-export default ClickButton
+const mapDispatchToProps = dispatch => ({
+  deleteItemFromCart: id => dispatch(deleteItemFromCart(id)),
+  editCartQuantity: (id, quantity) => dispatch(editCartQuantity(id, quantity))
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(CartItem)

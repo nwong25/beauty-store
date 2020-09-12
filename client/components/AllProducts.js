@@ -24,11 +24,6 @@ export class AllProducts extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log('prevprops------>', prevProps)
-    console.log('prevState------>', prevState)
-    console.log('this.props------>', this.props)
-    console.log('this.state------>', this.state)
-
     if (prevProps.products && prevProps.products !== this.props.products) {
       this.setState({
         products: this.props.products,
@@ -45,22 +40,22 @@ export class AllProducts extends Component {
     return (
       <div>
         <ClickButton
-          className="product-button"
+          className="gray-button"
           buttonTitle="All"
           handleClick={fetchProducts}
         />
         <ClickButton
-          className="product-button"
+          className="gray-button"
           buttonTitle="Cleansers"
           handleClick={() => fetchCategoryProducts('cleanser')}
         />
         <ClickButton
-          className="product-button"
+          className="gray-button"
           buttonTitle="Serums"
           handleClick={() => fetchCategoryProducts('serum')}
         />
         <ClickButton
-          className="product-button"
+          className="gray-button"
           buttonTitle="Moisturizer"
           handleClick={() => fetchCategoryProducts('moisturizer')}
         />

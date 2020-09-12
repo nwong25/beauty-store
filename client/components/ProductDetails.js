@@ -18,7 +18,8 @@ export class ProductDetails extends Component {
 
     this.state = {
       selectedProduct: {},
-      quantitySelected: 0
+      quantitySelected: 1,
+      errorMessage: ''
     }
   }
   componentDidMount() {
@@ -110,21 +111,25 @@ export class ProductDetails extends Component {
 
           <div>{description}</div>
 
-          <SelectDropDown
-            className="quantity-dropdown"
-            label={locale.QUANTITY}
-            handleChange={this._selectQuantity}
-            options={generateQuantityOptions()}
-            value={quantitySelected}
-          />
+          {inventory > 0 && (
+            <React.Fragment>
+              <SelectDropDown
+                className="quantity-dropdown"
+                label={locale.QUANTITY}
+                handleChange={this._selectQuantity}
+                options={generateQuantityOptions()}
+                value={quantitySelected}
+              />
 
-          <ClickButton
-            className="product-button add-to-cart margin-0"
-            buttonTitle={locale.ADD_TO_CART}
-            handleClick={() =>
-              this._addToCart({quantitySelected, selectedProduct})
-            }
-          />
+              <ClickButton
+                className="product-button add-to-cart margin-0"
+                buttonTitle={locale.ADD_TO_CART}
+                handleClick={() =>
+                  this._addToCart({quantitySelected, selectedProduct})
+                }
+              />
+            </React.Fragment>
+          )}
         </div>
       </div>
     )
