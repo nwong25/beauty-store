@@ -60,10 +60,17 @@ button {
 
   &:hover {
     color: $dark-pink;
-    background-color: #8080803b;
+    background-color: $dark-gray;
   }
 }
 
 .bold {
   font-weight: bold;
+}
+
+.error-message {
+  display: block;
+  color: $dark-pink;
+  text-align: center;
+  font-weight: 500;
 }

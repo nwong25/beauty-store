@@ -51,7 +51,7 @@
 
   .total-cost-section {
     text-align: end;
-    margin-top: 20px;
+    margin: 20px 0px;
   }
 
   .quantity-remove-section {
@@ -62,5 +62,24 @@
       justify-content: center;
       padding-left: 35px;
     }
+  }
+
+  .checkout-button,
+  .StripeCheckout {
+    outline: none !important;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: $light-gray;
+    font-weight: 500;
+    width: 350px;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .strip-checkout {
+    display: flex;
+    justify-content: center;
   }
 }

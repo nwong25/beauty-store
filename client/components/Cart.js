@@ -3,21 +3,14 @@ import {withRouter, Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {
   clearTheCart,
-  deleteItemFromCart,
-  editCartPromo,
-  editCartQuantity,
   getCart,
   postToCart,
   updateInventory
 } from '../store/product'
-import {addOrder} from '../store/order'
+import {addOrder, fetchOrders} from '../store/order'
 import CartItem from './CartItem'
-// import Checkout from './Checkout'
+import Checkout from './Checkout'
 import locale from '../locale'
-import ClickButton from './shared-components/ClickButton'
-
-let promoCode = {}
-let counter = true
 
 class Cart extends React.Component {
   constructor(props) {
@@ -28,36 +21,16 @@ class Cart extends React.Component {
     }
   }
 
+  componentDidMount() {
+    const {fetchOrders} = this.props
+    fetchOrders()
+  }
+
   handleSubmit = () => {
     const {cart, addOrder, updateInventory, clearTheCart} = this.props
     addOrder(cart)
     updateInventory(cart)
     clearTheCart()
-    counter = true
-  }
-
-  handleChange = event => {
-    promoCode = {
-      promoCode: event.target.value
-    }
-  }
-
-  async applyCode() {
-    try {
-      if (
-        counter &&
-        promoCode.promoCode.toLowerCase() === this.props.user.promoCode
-      ) {
-        let promiseArr = this.props.cart.map(item => {
-          return this.props.editPromo(item.product.id, 85)
-        })
-
-        await Promise.all(promiseArr)
-        counter = false
-      }
-    } catch (err) {
-      console.error(err)
-    }
   }
 
   _calculateTotal = () => {
@@ -74,24 +47,33 @@ class Cart extends React.Component {
     return (
       <div>
         <h2 className="center-text">{locale.CART}</h2>
-        <div className="cart-container">
-          {cart.length ? (
-            cart.map(item => <CartItem item={item} key={item.product.id} />)
-          ) : (
-            <div className="center-text">{locale.EMPTY_CART}</div>
-          )}
-          {cart.length > 0 && (
+        {cart.length > 0 ? (
+          <div className="cart-container">
+            {cart.map(item => <CartItem item={item} key={item.product.id} />)}
             <div className="total-cost-section">
               <div className="bold">{locale.ORDER_TOTAL}</div>
               <div className="product-price">${this._calculateTotal()}</div>
             </div>
-          )}
-          {isLoggedIn ? (
-            <ClickButton />
-          ) : (
-            <Link to="/login">{locale.CHECK_OUT}</Link>
-          )}
-        </div>
+            {isLoggedIn ? (
+              <div className="strip-checkout">
+                <Checkout
+                  name={locale.STORE_NAME}
+                  description={locale.ENTER_CARD}
+                  amount={this._calculateTotal()}
+                  OnClick={this.handleSubmit}
+                />
+              </div>
+            ) : (
+              <div className="center">
+                <Link className="gray-button checkout-button" to="/login">
+                  {locale.CHECK_OUT}
+                </Link>
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="center-text">{locale.EMPTY_CART}</div>
+        )}
       </div>
     )
   }
@@ -100,7 +82,7 @@ class Cart extends React.Component {
 const mapStateToProps = state => {
   return {
     isLoggedIn: !!state.user.id,
-    orders: state.orders.orders,
+    orders: state.orders,
     cart: state.products.cart,
     products: state.products.products,
     user: state.users
@@ -110,12 +92,10 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => ({
   addOrder: order => dispatch(addOrder(order)),
   clearTheCart: () => dispatch(clearTheCart()),
-  deleteItemFromCart: id => dispatch(deleteItemFromCart(id)),
-  editCartPromo: (id, promo) => dispatch(editCartPromo(id, promo)),
-  editCartQuantity: (id, quantity) => dispatch(editCartQuantity(id, quantity)),
   getCart: () => dispatch(getCart()),
   postToCart: cart => dispatch(postToCart(cart)),
-  updateInventory: cartItems => dispatch(updateInventory(cartItems))
+  updateInventory: cartItems => dispatch(updateInventory(cartItems)),
+  fetchOrders: () => dispatch(fetchOrders())
 })
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Cart))

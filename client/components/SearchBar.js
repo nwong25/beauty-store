@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {fetchFilteredProducts} from '../store/product'
+import locale from '../locale'
 
 export class SearchBar extends Component {
   constructor(props) {
@@ -26,11 +27,13 @@ export class SearchBar extends Component {
     this.setState({
       searchInput: ''
     })
+
     history.push(`/products?search=${this.state.searchInput.toLowerCase()}`)
   }
 
   render() {
     const {searchInput} = this.state
+
     return (
       <div className="center">
         <form id="search-bar" className="center" onSubmit={this._handleSubmit}>
@@ -40,11 +43,11 @@ export class SearchBar extends Component {
               name="searchInput"
               value={searchInput}
               onChange={this._handleChange}
-              placeholder="Search Here"
+              placeholder={locale.SEARCH_HERE}
             />
           </div>
           <button className="search-btn" type="submit">
-            Search
+            {locale.SEARCH}
           </button>
         </form>
       </div>

@@ -4,10 +4,10 @@
   padding: 20px;
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-between;
   height: 100%;
   align-items: center;
   margin: auto;
+  max-width: 1150px;
 
   @media (max-width: 525px) {
     justify-content: center;
@@ -91,6 +91,10 @@
 
     @media (max-width: 595px) {
       width: 150px;
+    }
+
+    &:hover {
+      color: $dark-pink;
     }
   }
 }

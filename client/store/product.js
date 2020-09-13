@@ -4,20 +4,15 @@ import axios from 'axios'
  * ACTION TYPES
  */
 const GET_ALL_PRODUCTS = 'GET_ALL_PRODUCTS'
-const GET_ALL_PROD_ADMIN = 'GET_ALL_PROD_ADMIN'
-const POST_PRODUCT = 'POST_PRODUCT'
-const PUT_PRODUCT = 'PUT_PRODUCT'
 const SELECT_PRODUCT = 'SELECT_PRODUCT'
 const ADD_TO_CART = 'ADD_TO_CART'
 const SEARCH_PRODUCTS = 'SEARCH_PRODUCT'
 const GET_CART = 'GET_CART'
 const CLEAR_CART = 'CLEAR_CART'
 const UPDATE_INVENTORY_AFTER_CART = 'UPDATE_INVENTORY_AFTER_CART'
-const POST_REVIEW = 'POST_REVIEW'
 const EDIT_CART_QUANTITY = 'EDIT_CART_QUANTITY'
 const DELETE_FROM_CART = 'DELETE_FROM_CART'
 const EDIT_CART_PRICE = 'EDIT_CART_PRICE'
-const EDIT_CART_PROMO = 'EDIT_CART_PROMO'
 const GET_PRODUCT_FILTERED_BY_CATEGORY = 'GET_PRODUCT_FILTERED_BY_CATEGORY'
 
 /**
@@ -27,8 +22,7 @@ const initialState = {
   products: [],
   selectedProduct: {},
   cart: [],
-  searchInput: '',
-  reviews: []
+  searchInput: ''
 }
 
 /**
@@ -37,21 +31,6 @@ const initialState = {
 const getProducts = products => ({
   type: GET_ALL_PRODUCTS,
   products
-})
-
-const getProdAdmin = products => ({
-  type: GET_ALL_PROD_ADMIN,
-  products
-})
-
-const postProduct = product => ({
-  type: POST_PRODUCT,
-  product
-})
-
-const putProduct = product => ({
-  type: PUT_PRODUCT,
-  product
 })
 
 const selectProd = product => ({
@@ -85,11 +64,6 @@ export const updateInventoryAfterCart = cartItems => ({
   cartItems
 })
 
-export const postAReview = review => ({
-  type: POST_REVIEW,
-  review
-})
-
 export const editCartQuantity = (id, quantity) => ({
   type: EDIT_CART_QUANTITY,
   id,
@@ -99,18 +73,6 @@ export const editCartQuantity = (id, quantity) => ({
 export const deleteFromCart = id => ({
   type: DELETE_FROM_CART,
   id
-})
-
-export const editCartPrice = (id, price) => ({
-  type: EDIT_CART_PRICE,
-  id,
-  price
-})
-
-export const editCartPromo = (id, promo) => ({
-  type: EDIT_CART_PROMO,
-  id,
-  promo
 })
 
 export const filteredProductByCategory = products => ({
@@ -154,30 +116,11 @@ export const fetchCategoryProducts = category => async dispatch => {
     console.log(error)
   }
 }
-export const fetchProdAdmin = () => async dispatch => {
-  try {
-    const response = await axios.get('/api/products')
-    const products = response.data
-    const action = getProdAdmin(products)
-    dispatch(action)
-  } catch (error) {
-    console.log(error)
-  }
-}
 
 export const addProduct = product => async dispatch => {
   try {
     const {data: added} = await axios.post('/api/products', product)
     dispatch(postProduct(added))
-  } catch (error) {
-    console.error(error)
-  }
-}
-
-export const editProduct = (id, product) => async dispatch => {
-  try {
-    const {data: edited} = await axios.put(`/api/products/${id}`, product)
-    dispatch(putProduct(edited))
   } catch (error) {
     console.error(error)
   }
@@ -239,15 +182,6 @@ export const deleteItemFromCart = id => async dispatch => {
   }
 }
 
-export const postReview = (id, reviews) => async dispatch => {
-  try {
-    const {data: review} = await axios.post(`/api/products/${id}`, reviews)
-    dispatch(postAReview(review))
-  } catch (err) {
-    console.error(err)
-  }
-}
-
 export const updateQuantity = (id, quantity) => async dispatch => {
   try {
     const {data: updateItem} = await axios.put('/api/products/cart', quantity)
@@ -257,46 +191,10 @@ export const updateQuantity = (id, quantity) => async dispatch => {
   }
 }
 
-export const updatePrice = (id, price) => async dispatch => {
-  try {
-    const {data: updateCartItem} = await axios.put('/api/products/cart', price)
-    dispatch(editCartPrice(id, updateCartItem))
-  } catch (err) {
-    console.error(err)
-  }
-}
-
-export const updatePromo = (id, promo) => async dispatch => {
-  try {
-    const {data: updatedPromo} = await axios.put('/api/products/cart', promo)
-    dispatch(editCartPromo(id, updatedPromo))
-  } catch (err) {
-    console.error(err)
-  }
-}
-//when we hit button for add to cart
-//add the item to cart session store
-//add the updated cart to the session store
-/**
- * REDUCER
- */
 export const productReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_ALL_PRODUCTS:
       return {...state, products: action.products}
-    case GET_ALL_PROD_ADMIN:
-      const filteredProducts = action.products.filter(
-        product => product.inventory > 0
-      )
-      return {...state, products: filteredProducts}
-    case POST_PRODUCT:
-      return {...state, products: [...state.products, action.product]}
-    case PUT_PRODUCT:
-      const productUpdated = state.products.map(
-        product =>
-          product !== action.product ? product : {...product, ...action.product}
-      )
-      return {...state, products: productUpdated}
     case SELECT_PRODUCT:
       return {...state, selectedProduct: action.product}
     case ADD_TO_CART:
@@ -323,24 +221,12 @@ export const productReducer = (state = initialState, action) => {
         }
       })
       return {...state, cart: updateCartInfo}
-    case EDIT_CART_PROMO:
-      const updateCartPromoInfo = state.cart.map(item => {
-        if (item.product.id === action.id) {
-          item.product.promo = action.promo
-          return item
-        } else {
-          return item
-        }
-      })
-      return {...state, cart: updateCartPromoInfo}
-
     case SEARCH_PRODUCTS:
       return {
         ...state,
         searchInput: action.title,
         products: action.products
       }
-
     case GET_PRODUCT_FILTERED_BY_CATEGORY: {
       return {
         ...state,
@@ -361,8 +247,6 @@ export const productReducer = (state = initialState, action) => {
         return singleProduct
       })
       return {...state, products: inventoryChange}
-    case POST_REVIEW:
-      return {...state, reviews: [...state.reviews, action.review]}
     case DELETE_FROM_CART:
       const newCart = state.cart.filter(item => item.product.id !== action.id)
       return {...state, cart: newCart}

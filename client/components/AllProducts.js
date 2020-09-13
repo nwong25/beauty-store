@@ -3,10 +3,10 @@ import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {fetchProducts, fetchCategoryProducts} from '../store/product'
 import SingleProduct from './SingleProduct'
-import locale from '../locale'
 import ClickButton from './shared-components/ClickButton'
+import locale from '../locale'
 
-export class AllProducts extends Component {
+class AllProducts extends Component {
   constructor(props) {
     super(props)
 
@@ -34,31 +34,32 @@ export class AllProducts extends Component {
 
   render() {
     const {products} = this.state
-
     const {fetchCategoryProducts, fetchProducts} = this.props
 
     return (
       <div>
-        <ClickButton
-          className="gray-button"
-          buttonTitle="All"
-          handleClick={fetchProducts}
-        />
-        <ClickButton
-          className="gray-button"
-          buttonTitle="Cleansers"
-          handleClick={() => fetchCategoryProducts('cleanser')}
-        />
-        <ClickButton
-          className="gray-button"
-          buttonTitle="Serums"
-          handleClick={() => fetchCategoryProducts('serum')}
-        />
-        <ClickButton
-          className="gray-button"
-          buttonTitle="Moisturizer"
-          handleClick={() => fetchCategoryProducts('moisturizer')}
-        />
+        <div className="center">
+          <ClickButton
+            className="gray-button"
+            buttonTitle="All"
+            handleClick={fetchProducts}
+          />
+          <ClickButton
+            className="gray-button"
+            buttonTitle="Cleansers"
+            handleClick={() => fetchCategoryProducts('cleanser')}
+          />
+          <ClickButton
+            className="gray-button"
+            buttonTitle="Serums"
+            handleClick={() => fetchCategoryProducts('serum')}
+          />
+          <ClickButton
+            className="gray-button"
+            buttonTitle="Moisturizer"
+            handleClick={() => fetchCategoryProducts('moisturizer')}
+          />
+        </div>
         <div className="product-list">
           {products.length ? (
             products.map(product => (
@@ -72,9 +73,9 @@ export class AllProducts extends Component {
     )
   }
 }
+
 const mapStateToProps = state => ({
   products: state.products.products,
-  orders: state.orders.orders,
   searchInput: state.products.searchInput
 })
 

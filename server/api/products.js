@@ -102,13 +102,14 @@ router.post('/cart/checkout', async (req, res, next) => {
     const userId = req.session.passport.user
     const cart = req.session.cart
 
+    console.log('userID', userId, 'cart', cart)
+
     const orderInfo = cart.map(product => {
       return {
         quantity: product.number,
         price: +product.product.price,
         userId: userId,
-        productId: product.product.id,
-        promo: +product.product.promo
+        productId: product.product.id
       }
     })
     const newItems = []
@@ -119,11 +120,7 @@ router.post('/cart/checkout', async (req, res, next) => {
         through: {
           price: orderInfo[index].price,
           quantity: orderInfo[index].quantity,
-          promo: orderInfo[index].promo,
-          subtotal:
-            orderInfo[index].quantity *
-            orderInfo[index].price *
-            orderInfo[index].promo
+          subtotal: orderInfo[index].quantity * orderInfo[index].price
         }
       })
     })

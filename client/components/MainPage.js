@@ -1,9 +1,5 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {withRouter} from 'react-router-dom'
-import {connect} from 'react-redux'
-import {fetchProducts} from '../store/product'
-import {fetchOrders} from '../store/order'
-import SingleProduct from './SingleProduct'
 import image from '../../public/shelfie.jpg'
 
 const MainPage = () => {

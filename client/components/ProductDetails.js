@@ -2,14 +2,14 @@ import React, {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {
-  selectProductById,
+  addCartItem,
   fetchFilteredProducts,
   postToCart,
-  addCartItem
+  selectProductById
 } from '../store/product'
-import locale from '../locale'
 import ClickButton from './shared-components/ClickButton'
 import SelectDropDown from './shared-components/SelectDropDown'
+import locale from '../locale'
 import {generateQuantityOptions} from '../utility'
 
 export class ProductDetails extends Component {
@@ -68,7 +68,6 @@ export class ProductDetails extends Component {
       number: +quantitySelected,
       product: selectedProduct
     }
-
     addCartItem(item)
     postToCart(cart)
   }
@@ -77,8 +76,6 @@ export class ProductDetails extends Component {
     const {
       company,
       name,
-      id,
-      imageUrl,
       inventory,
       price,
       searchName,
@@ -122,7 +119,7 @@ export class ProductDetails extends Component {
               />
 
               <ClickButton
-                className="product-button add-to-cart margin-0"
+                className="gray-button add-to-cart margin-0"
                 buttonTitle={locale.ADD_TO_CART}
                 handleClick={() =>
                   this._addToCart({quantitySelected, selectedProduct})
@@ -137,7 +134,6 @@ export class ProductDetails extends Component {
 }
 const mapStateToProps = state => ({
   selectedProduct: state.products.selectedProduct,
-  orders: state.orders.orders,
   cart: state.products.cart
 })
 

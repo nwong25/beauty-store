@@ -1,11 +1,11 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import SelectDropDown from './shared-components/SelectDropDown'
 import {Link} from 'react-router-dom'
-import {generateQuantityOptions} from '../utility'
-import ClickButton from './shared-components/ClickButton'
 import {deleteItemFromCart, editCartQuantity} from '../store/product'
+import ClickButton from './shared-components/ClickButton'
+import SelectDropDown from './shared-components/SelectDropDown'
 import locale from '../locale'
+import {generateQuantityOptions} from '../utility'
 
 class CartItem extends React.Component {
   constructor(props) {
@@ -71,8 +71,7 @@ class CartItem extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    cart: state.products.cart,
-    user: state.users
+    cart: state.products.cart
   }
 }
 
