@@ -14,8 +14,8 @@ To run project in development mode
 
 ```
 npm install
-createdb beauty-store
-npm run seed
+createdb beauty-store  //this creates database 
+npm run seed  //populates the database with data
 npm run start-dev
 ```
 
