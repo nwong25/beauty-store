@@ -2,6 +2,8 @@
 
 An online e-commerce store that sells beauty products.
 
+https://beauty-store-project.herokuapp.com/products (WIP)
+
 ## Setup
 
 To run project in development mode
