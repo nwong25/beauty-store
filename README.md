@@ -4,6 +4,8 @@ An online e-commerce store that sells beauty products.
 
 https://beauty-store-project.herokuapp.com/products (WIP)
 
+<img src="https://i.ibb.co/HV9xqZX/Screen-Shot-2020-09-13-at-10-59-46-PM.png" alt="Screen-Shot-2020-09-13-at-10-59-46-PM" border="0">
+
 ## Setup
 
 To run project in development mode
