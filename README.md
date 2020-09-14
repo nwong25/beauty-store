@@ -33,9 +33,9 @@ For fake checkout - use 4242 4242 4242 4242 as credit card number
 
 ## WIP Improvements
 
--Refactor to use React hooks
--Add unit testing for both server and front-end
--Add order history page
--Add pagination to products page
--Add admin page to edit and add new products to site
--Add customer account page to edit personal information
+*Refactor to use React hooks
+*Add unit testing for both server and front-end
+*Add order history page
+*Add pagination to products page
+*Add admin page to edit and add new products to site
+*Add customer account page to edit personal information
