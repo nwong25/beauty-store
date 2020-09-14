@@ -52,39 +52,6 @@ router.get('/:id', async (req, res, next) => {
   }
 })
 
-router.post('/', (req, res, next) => {
-  if (req.user.adminStatus) {
-    Product.create({
-      company: req.body.title,
-      description: req.body.description,
-      price: req.body.price,
-      inventory: req.body.inventory,
-      imageUrl: req.body.imageUrl,
-      category: req.body.category
-    })
-      .then(newProduct => res.json(newProduct))
-      .catch(err => next(err))
-  } else {
-    res.send('not an admin')
-  }
-})
-
-router.put('/:id', async (req, res, next) => {
-  if (req.user.adminStatus) {
-    try {
-      const id = +req.params.id
-      const product = await Product.findByPk(id)
-      const editedProd = await product.update(req.body)
-      res.status(204)
-      res.json(editedProd)
-    } catch (err) {
-      next(err)
-    }
-  } else {
-    res.send('not an admin')
-  }
-})
-
 router.post('/cart', (req, res, next) => {
   req.session.cart = req.body
   res.sendStatus(201)

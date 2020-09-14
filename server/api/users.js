@@ -31,16 +31,4 @@ router.get('/order', async (req, res, next) => {
   }
 })
 
-router.put('/:id', async (req, res, next) => {
-  try {
-    const id = +req.params.id
-    const user = await User.findByPk(id)
-    const editedUser = await user.update({adminStatus: true})
-    res.status(204)
-    res.json(editedUser)
-  } catch (err) {
-    next(err)
-  }
-})
-
 module.exports = router
