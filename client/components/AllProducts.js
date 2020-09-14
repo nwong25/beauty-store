@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {fetchProducts, fetchCategoryProducts} from '../store/product'
@@ -6,7 +6,7 @@ import SingleProduct from './SingleProduct'
 import ClickButton from './shared-components/ClickButton'
 import locale from '../locale'
 
-class AllProducts extends Component {
+class AllProducts extends React.Component {
   constructor(props) {
     super(props)
 

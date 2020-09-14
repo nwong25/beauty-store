@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch, Redirect} from 'react-router-dom'
 import PropTypes from 'prop-types'
@@ -13,12 +13,14 @@ import {
   Success
 } from './components'
 import {me} from './store'
-import {fetchProducts} from './store/product'
+import {fetchProducts, getCart} from './store/product'
 
-class Routes extends Component {
+class Routes extends React.Component {
   componentDidMount() {
-    this.props.loadInitialData()
-    this.props.fetchProducts()
+    const {loadInitialData, fetchProducts, getCart} = this.props
+    loadInitialData()
+    fetchProducts()
+    getCart()
   }
 
   render() {
@@ -67,7 +69,8 @@ const mapDispatch = dispatch => {
     loadInitialData() {
       dispatch(me())
     },
-    fetchProducts: () => dispatch(fetchProducts())
+    fetchProducts: () => dispatch(fetchProducts()),
+    getCart: () => dispatch(getCart())
   }
 }
 

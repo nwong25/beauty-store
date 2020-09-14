@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {
@@ -12,14 +12,14 @@ import SelectDropDown from './shared-components/SelectDropDown'
 import locale from '../locale'
 import {generateQuantityOptions} from '../utility'
 
-export class ProductDetails extends Component {
+export class ProductDetails extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
       selectedProduct: {},
       quantitySelected: 1,
-      errorMessage: ''
+      cart: props.cart
     }
   }
   componentDidMount() {
@@ -62,14 +62,35 @@ export class ProductDetails extends Component {
   }
 
   _addToCart = ({quantitySelected, selectedProduct}) => {
-    const {addCartItem, postToCart, cart} = this.props
+    const {addCartItem, postToCart} = this.props
+    const {cart} = this.state
 
     const item = {
       number: +quantitySelected,
       product: selectedProduct
     }
+
     addCartItem(item)
-    postToCart(cart)
+
+    let updatedCart = [...cart]
+    let newProduct = true
+    updatedCart.map(currentCartItem => {
+      if (currentCartItem.product.id === selectedProduct.id) {
+        currentCartItem.number += action.item.number
+        newProduct = false
+      }
+    })
+    if (newProduct === true) {
+      updatedCart = [...updatedCart, item]
+    }
+    this.setState(
+      {
+        cart: updatedCart
+      },
+      () => {
+        postToCart(updatedCart)
+      }
+    )
   }
 
   render() {
@@ -95,7 +116,7 @@ export class ProductDetails extends Component {
         </div>
         <div className="product-info">
           <ClickButton
-            className="product-button margin-0"
+            className="gray-button margin-0"
             buttonTitle={company}
             handleClick={() => this._findProductsByBrand(company)}
           />

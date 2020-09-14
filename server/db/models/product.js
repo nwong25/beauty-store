@@ -28,7 +28,7 @@ const Product = db.define(
     },
     imageUrl: {
       type: Sequelize.STRING,
-      defaultValue: '/atolla.png'
+      defaultValue: '/shelfie.png'
     },
     category: {
       type: Sequelize.STRING,

@@ -9,10 +9,8 @@ const ADD_TO_CART = 'ADD_TO_CART'
 const SEARCH_PRODUCTS = 'SEARCH_PRODUCT'
 const GET_CART = 'GET_CART'
 const CLEAR_CART = 'CLEAR_CART'
-const UPDATE_INVENTORY_AFTER_CART = 'UPDATE_INVENTORY_AFTER_CART'
 const EDIT_CART_QUANTITY = 'EDIT_CART_QUANTITY'
 const DELETE_FROM_CART = 'DELETE_FROM_CART'
-const EDIT_CART_PRICE = 'EDIT_CART_PRICE'
 const GET_PRODUCT_FILTERED_BY_CATEGORY = 'GET_PRODUCT_FILTERED_BY_CATEGORY'
 
 /**
@@ -57,11 +55,6 @@ export const gotCart = cart => ({
 export const clearCart = () => ({
   type: CLEAR_CART,
   cart: []
-})
-
-export const updateInventoryAfterCart = cartItems => ({
-  type: UPDATE_INVENTORY_AFTER_CART,
-  cartItems
 })
 
 export const editCartQuantity = (id, quantity) => ({
@@ -237,16 +230,6 @@ export const productReducer = (state = initialState, action) => {
       return {...state, cart: [...action.cart]}
     case CLEAR_CART:
       return {...state, cart: []}
-    case UPDATE_INVENTORY_AFTER_CART:
-      const inventoryChange = state.products.map(product => {
-        action.cartItems.map(cartItem => {
-          if (cartItem.product.id === product.id) {
-            product.inventory = product.inventory - cartItem.number
-          }
-        })
-        return singleProduct
-      })
-      return {...state, products: inventoryChange}
     case DELETE_FROM_CART:
       const newCart = state.cart.filter(item => item.product.id !== action.id)
       return {...state, cart: newCart}

@@ -1,10 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {fetchFilteredProducts} from '../store/product'
 import locale from '../locale'
 
-export class SearchBar extends Component {
+export class SearchBar extends React.Component {
   constructor(props) {
     super(props)
     this.state = {

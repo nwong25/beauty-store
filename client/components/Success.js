@@ -18,7 +18,7 @@ class Success extends React.Component {
   }
 
   render() {
-    return <div className="center">{locale.THANK_YOU}</div>
+    return <div className="center thank-you">{locale.THANK_YOU}</div>
   }
 }
 

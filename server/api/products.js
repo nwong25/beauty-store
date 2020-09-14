@@ -101,9 +101,6 @@ router.post('/cart/checkout', async (req, res, next) => {
   try {
     const userId = req.session.passport.user
     const cart = req.session.cart
-
-    console.log('userID', userId, 'cart', cart)
-
     const orderInfo = cart.map(product => {
       return {
         quantity: product.number,
@@ -114,7 +111,7 @@ router.post('/cart/checkout', async (req, res, next) => {
     })
     const newItems = []
     const newOrderItem = await Order.create({userId: userId})
-    let orderInforPromises = orderInfo.map((product, index) => {
+    let orderInfoPromises = orderInfo.map((product, index) => {
       newItems.push(orderInfo[index])
       newOrderItem.addProduct(orderInfo[index].productId, {
         through: {
@@ -125,7 +122,7 @@ router.post('/cart/checkout', async (req, res, next) => {
       })
     })
 
-    const newOrder = await Promise.all(orderInforPromises)
+    const newOrder = await Promise.all(orderInfoPromises)
 
     req.session.cart = []
     res.send(newOrder)
@@ -143,7 +140,6 @@ router.put('/cart/checkout', (req, res, next) => {
         inventory: selectedProduct.inventory - product.number
       })
     })
-    req.session.cart = []
     res.send(changes)
   } catch (error) {
     next(error)

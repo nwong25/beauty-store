@@ -1,10 +1,13 @@
 import React from 'react'
 import axios from 'axios'
+import {withRouter} from 'react-router-dom'
 import StripeCheckout from 'react-stripe-checkout'
-import {Link} from 'react-router-dom'
 
 import STRIPE_PUBLISHABLE from '../constants/stripe'
 import PAYMENT_SERVER_URL from '../constants/server'
+import {addOrder} from '../store/order'
+import {clearTheCart, updateInventory} from '../store/product'
+import {connect} from 'react-redux'
 
 const CURRENCY = 'USD'
 
@@ -12,6 +15,7 @@ const fromUSDToCent = amount => amount * 100
 
 const successPayment = data => {
   alert('Payment Successful')
+  data()
 }
 
 const errorPayment = data => {
@@ -35,7 +39,7 @@ const redirect = url => {
   }
 }
 
-const onToken = (amount, description) => token =>
+const onToken = ({amount, description, addOrderAndUpdateInventory}) => token =>
   axios
     .post(PAYMENT_SERVER_URL, {
       description,
@@ -43,19 +47,53 @@ const onToken = (amount, description) => token =>
       currency: CURRENCY,
       amount: fromUSDToCent(amount)
     })
-    .then(successPayment)
+    .then(successPayment(addOrderAndUpdateInventory))
     .then(redirect('/success'))
     .catch(errorPayment)
 
-const Checkout = ({name, description, amount}) => (
-  <StripeCheckout
-    name={name}
-    description={description}
-    amount={fromUSDToCent(amount)}
-    token={onToken(amount, description)}
-    currency={CURRENCY}
-    stripeKey={STRIPE_PUBLISHABLE}
-  />
-)
+const Checkout = ({
+  name,
+  description,
+  amount,
+  cart,
+  addOrder,
+  clearTheCart,
+  updateInventory
+}) => {
+  async function addOrderAndUpdateInventory() {
+    await updateInventory(cart)
+    await addOrder(cart)
+    clearTheCart()
+  }
+  return (
+    <StripeCheckout
+      name={name}
+      description={description}
+      amount={fromUSDToCent(amount)}
+      token={onToken({amount, description, addOrderAndUpdateInventory})}
+      currency={CURRENCY}
+      stripeKey={STRIPE_PUBLISHABLE}
+    >
+      <button className="btn btn-primary gray-button checkout-button">
+        Pay with Card
+      </button>
+    </StripeCheckout>
+  )
+}
 
-export default Checkout
+const mapStateToProps = state => {
+  return {
+    cart: state.products.cart,
+    orders: state.orders
+  }
+}
+
+const mapDispatchToProps = dispatch => ({
+  addOrder: order => dispatch(addOrder(order)),
+  clearTheCart: () => dispatch(clearTheCart()),
+  updateInventory: cartItems => dispatch(updateInventory(cartItems))
+})
+
+export default withRouter(
+  connect(mapStateToProps, mapDispatchToProps)(Checkout)
+)

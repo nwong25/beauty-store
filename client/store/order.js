@@ -49,9 +49,6 @@ export const addOrder = order => async dispatch => {
   }
 }
 
-//when we hit button for add to cart
-//add the item to cart session store
-//add the updated cart to the session store
 /**
  * REDUCER
  */
