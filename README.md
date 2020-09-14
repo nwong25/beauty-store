@@ -44,4 +44,5 @@ For fake checkout - use 4242 4242 4242 4242 as credit card number
 * Add pagination to products page
 * Add admin page to edit and add new products to site
 * Add customer account page to edit personal information
+* Add necessary aria labels and check for accessibility issues
 * Incorporate lazy loading
