@@ -7,9 +7,6 @@ import store from './store'
 import App from './app'
 import './styles/styles.scss'
 
-// establishes socket connection
-// import './socket'
-
 ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
