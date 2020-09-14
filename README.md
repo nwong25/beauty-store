@@ -25,9 +25,9 @@ For fake checkout - use 4242 4242 4242 4242 as credit card number
   * React
   * Redux
   * Sass
+  
 * Server
-
-* Node.js
+  * Node.js
   * Express
   * PostgreSQl
   * Sequelize
