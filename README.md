@@ -27,11 +27,11 @@ For fake checkout - use 4242 4242 4242 4242 as credit card number
   * Sass
 * Server
 
-- Node.js
-- Express
-- PostgreSQl
-- Sequelize
-- Stripe for checkout
+* Node.js
+  * Express
+  * PostgreSQl
+  * Sequelize
+  * Stripe for checkout
 
 ## WIP Improvements
 
